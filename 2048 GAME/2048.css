@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-align: center;
+    color: #776E65;
+}
+
+.container{
+   width: 500px;
+   height: 100vh;
+   margin: 0 auto;
+}
+
+.heading{
+    width: 480px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 230px;
+    padding: 10px;
+}
+
+.scores-container{
+    display: flex;
+    gap: 4px;
+}
+
+#score{
+    color: white;
+    background-color: #BBADA0;
+    border-radius: 5px;
+    
+}
+
+
+.above-game{
+    display: flex;
+    padding: 4px;
+    gap: 90px;
+    margin-bottom: 10px;
+}
+
+.game-info{
+    padding: 5px 10px;
+}
+
+.restart-button{
+    background-color: #8F7A66;
+    font-size: 1rem;
+    padding: 5px 15px;
+    border-radius: 5px;
+    color: white;
+}
+
+#board{
+    height:400px ;
+    width: 400px;
+    margin-top: 40px;
+    margin-left: 50px;
+    background-color:#BBADA0; 
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.tile {
+    width: 90px;
+    height: 90px;
+    border: 5px solid #8F7A66;
+
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* colored tiles */
+
+.x2 {
+    background-color: #eee4da;
+    color: #727371;
+}
+
+.x4 {
+    background-color: #ece0ca;
+    color: #727371;
+}
+
+.x8 {
+    background-color: #f4b17a;
+    color: white;
+}
+
+.x16{
+    background-color: #f59575;
+    color: white;
+}
+
+.x32{
+    background-color: #f57c5f;
+    color: white;
+}
+
+.x64{
+    background-color: #f65d3b;
+    color: white;
+}
+
+.x128{
+    background-color: #edce71;
+    color: white;
+}
+
+.x256{
+    background-color: #edcc63;
+    color: white;
+}
+
+.x512{
+    background-color: #edc651;
+    color: white;
+}
+
+.x1024{
+    background-color: #eec744;
+    color: white;
+}
+
+.x2048{
+    background-color: #ecc230;
+    color: white;
+}
+
+.x4096 {
+    background-color: #fe3d3d;
+    color: white;
+}
+
+.x8192 {
+    background-color: #ff2020;
+    color: white;
+}
